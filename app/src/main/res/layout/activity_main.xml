@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Pàgina principal"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Cal saber que volen dir els conceptes abans de fer cap operació. Clica per obrir el glosari." />
+
+        <Button
+            android:id="@+id/glosari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glosari" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Clica per recordar les operacions bàsiques, és a dir: sumar, restar, multiplicar i dividir" />
+
+        <Button
+            android:id="@+id/basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operacions bàsiques" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
